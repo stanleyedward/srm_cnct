@@ -13,7 +13,9 @@ class Connection(webdriver.Firefox):
         self.driver_path = driver_path
         os.environ['PATH'] += self.driver_path
         # driver = webdriver.Firefox()
-        super(Connection, self).__init__()
+        firefox_options = webdriver.FirefoxOptions()
+        firefox_options.add_argument('--headless')
+        super(Connection, self).__init__(options=firefox_options)
         self.implicitly_wait(15)
         self.maximize_window()
 

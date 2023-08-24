@@ -5,6 +5,7 @@ try:
     with Connection() as auto:
         # auto.check_setup()
         auto.open_and_input(username=dtl.USERNAME,password=dtl.PASSWORD)
+        auto.quit()
 
 except Exception as e:
     if 'in PATH' in str(e):

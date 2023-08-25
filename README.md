@@ -1,9 +1,9 @@
 # srm_cnct
 automation to connect to SRMIST wifi
 1. Clone the repo to your directory
-  ```sh
-  git clone https://github.com/stanleyedward/srm_cnct.git
-  ```
+    ```sh
+    git clone https://github.com/stanleyedward/srm_cnct.git
+    ```
 2. open your `.bashrc` file or `.zshrc` if you're using zsh
    ```sh
    nano .bashrc

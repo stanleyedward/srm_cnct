@@ -27,7 +27,7 @@ automation to connect to SRMIST wifi
 
 4. Run the alias cmd
     ```sh
-    srm_connect
+    srmwifi
     ```
 5. Input user and password for one-time setup (both are stored locally)
    ```sh

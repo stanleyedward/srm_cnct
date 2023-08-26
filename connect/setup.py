@@ -13,4 +13,4 @@ class Setup:
 
         details = np.column_stack([username,password])
         pd.DataFrame(details).to_csv(str(path)+'/srm_cnct/connect/details.csv', index = None, header= None)
-        print("rerun the command again after setup.")
+        print("rerun the command after setup.")

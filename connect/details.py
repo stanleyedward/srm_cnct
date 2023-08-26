@@ -1,6 +1,5 @@
 import pandas as pd
 from pathlib import Path
-
 path = Path.home()
 # print(str(path)+'/srm_cnct/connect/details.csv')
 
